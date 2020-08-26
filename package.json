@@ -1,0 +1,27 @@
+{
+  "name": "worker-plugin-nested-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-cli  --env.MODE=development",
+    "testServer": "serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "circular-dependency-plugin": "^5.2.0",
+    "html-webpack-plugin": "^4.3.0",
+    "http-server": "^0.12.3",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "worker-loader": "^3.0.2",
+    "worker-plugin": "^5.0.0"
+  },
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
